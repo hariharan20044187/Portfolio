@@ -135,11 +135,11 @@
         <section id="projects">
             <h2>Projects</h2>
             <p>1.anime info project:</p>
-            <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/asunm13112313111058060%20Hari%20haran.html" class="project-button">View Projects</a>
+            <a href="amineinfo.html" class="project-button">View Projects</a>
             <p>2.ball animation project:</p>
-            <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Css%20code.html" class="project-button">View Projects</a>
+            <a href="ballanimation.html" class="project-button">View Projects</a>
             <p>3.register form project:</p>
-            <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/asunm13112313111058060.html" class="project-button">View Projects</a>
+            <a href="form.html" class="project-button">View Projects</a>
         </section>
 
         <section id="resume">
