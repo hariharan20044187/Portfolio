@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Bouncing Ball */
+.bouncing-ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: relative;
+  animation: bounce 1s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+    transform: scaleY(1);
+  }
+  50% {
+    top: 150px;
+    transform: scaleY(0.8);
+  }
+  100% {
+    top: 0;
+    transform: scaleY(1);
+  }
+}
+
+/* Rolling Ball */
+.rolling-ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+  position: relative;
+  animation: roll 2s linear infinite;
+}
+
+@keyframes roll {
+  0% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+  100% {
+    left: 300px;
+    transform: rotate(360deg);
+  }
+}
+
+/* Falling Ball */
+.falling-ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: green;
+  position: relative;
+  animation: fall 2s ease-in forwards;
+}
+
+@keyframes fall {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 300px;
+    opacity: 0;
+  }
+}
+
+/* Fading and Moving Ball */
+.fade-move-ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: purple;
+  position: relative;
+  animation: fadeMove 3s ease-in-out infinite alternate;
+}
+
+@keyframes fadeMove {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    left: 200px;
+    opacity: 0.2;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="bouncing-ball"></div>
+<div class="rolling-ball"></div>
+<div class="falling-ball"></div>
+<div class="fade-move-ball"></div>
+
+</body>
+</html>
